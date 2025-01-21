@@ -9,3 +9,4 @@ int main(){
     printf("Average: %.2f",average);
     return 0;
 }
+
