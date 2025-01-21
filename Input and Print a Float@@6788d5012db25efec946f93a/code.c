@@ -7,4 +7,4 @@ int main() {
 
     printf("the number is : %f", num);
     return 0;
-})
+}
