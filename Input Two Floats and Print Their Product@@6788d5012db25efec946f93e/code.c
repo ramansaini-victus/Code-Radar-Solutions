@@ -3,8 +3,7 @@ int main(){
     float a,b;
     scanf("%f",&a);
     scanf("%f",&b);
-    multi=a*b;
-    printf("Product:%f",multi);
+    printf("Product:%.2f",a*b);
     return 0;
 }
 
