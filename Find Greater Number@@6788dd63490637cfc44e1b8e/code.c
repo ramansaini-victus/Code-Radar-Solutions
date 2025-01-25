@@ -9,5 +9,8 @@ int main(){
     else if (b>a){
         printf("%d\n",b);
     }
+    else{
+        printf("no\n");
+    }
     return 0;
 }
