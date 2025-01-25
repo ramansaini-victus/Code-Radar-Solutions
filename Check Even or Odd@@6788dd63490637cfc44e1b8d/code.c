@@ -6,7 +6,7 @@ int main(){
         printf("Even \n");
     }
     else{
-        printf("False \n");
+        printf("Odd \n");
     }
     return 0;
 }
