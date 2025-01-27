@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int a,b,c,average;
+    float a,b,c,average;
     scanf("%d %d %d", &a, &b, &c);
   
 
