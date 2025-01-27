@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    char light;
+    char ("light");
     scanf("%c",&light);
     switch(light){
         case"R": printf("Stop \n");
