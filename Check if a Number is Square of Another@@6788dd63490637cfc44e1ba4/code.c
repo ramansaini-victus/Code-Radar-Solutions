@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int a,b;
-    b=2*a;
+    b=a*a;
     scanf("%d %d",&a,&b);
     if(a<b){
         printf("Yes");
