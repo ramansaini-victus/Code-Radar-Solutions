@@ -2,9 +2,9 @@
 int main(){
     char n;
     scanf("%c",&n);
-    for(int i=1;i<=n;i++){
-        for(int j=1;j<=i;j++){
-            printf("%d ",j);
+    for(char i="A";i<=n;i++){
+        for(char j="A";j<=i;j++){
+            printf("%c ",j);
         }
         printf("\n");
     }
