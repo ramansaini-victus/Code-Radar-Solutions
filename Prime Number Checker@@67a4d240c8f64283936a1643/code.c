@@ -3,7 +3,7 @@ void prime(int n);
 int main(){
     int z;
     scanf("%d",&z);
-    prime(z);
+    prime(n);
 
     return 0;
 }
