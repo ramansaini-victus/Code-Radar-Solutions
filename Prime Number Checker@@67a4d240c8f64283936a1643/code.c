@@ -11,11 +11,11 @@ void prime(n)
     }
     if(count==0)
     {
-        printf("1");
+        printf("1\n");
     }
     else
     {
-        printf("0");
+        printf("0\n");
     }
 }
 int main()
