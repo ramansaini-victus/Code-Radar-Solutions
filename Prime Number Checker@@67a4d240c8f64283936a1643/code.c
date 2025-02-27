@@ -1,9 +1,9 @@
 #include<stdio.h>
-void prime();
+void prime(int n);
 int main(){
     int n,count=1;
     scanf("%d",&n);
-    prime();
+    prime(n);
 
     return 0;
 }
@@ -11,12 +11,12 @@ int main(){
 void prime(){
     for(int i=1;i<=n;i++){
         if(n%i==0);
-        count++;
+        count=count+1;
     }
     if(count==2){
-        return 1;
+        printf("1\n");
     }
     else{
-        return 0;
+        printf("0\n");
     }
 }
