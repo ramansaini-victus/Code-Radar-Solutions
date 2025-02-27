@@ -8,7 +8,8 @@ int main(){
     return 0;
 }
 
-void prime(){
+void prime(int n){
+
     int count=0;
     for(int i=1;i<=n;i++){
         if(n%i==0);
