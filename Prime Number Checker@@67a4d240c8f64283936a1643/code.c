@@ -1,8 +1,8 @@
 #include<stdio.h>
 void prime(int n);
 int main(){
-    int n;
-    scanf("%d",&n);
+    int z;
+    scanf("%d",&z);
     prime(n);
 
     return 0;
