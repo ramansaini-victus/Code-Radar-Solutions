@@ -22,6 +22,6 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    isprime(a);
+    isprime(n);
     return 0;
 }
