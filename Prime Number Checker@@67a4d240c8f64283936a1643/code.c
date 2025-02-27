@@ -1,5 +1,5 @@
 #include<stdio.h>
-void isprime(int a)
+void isprime(int n)
 {
     int count=0;
     for(int i=2;i<=n;i++)
