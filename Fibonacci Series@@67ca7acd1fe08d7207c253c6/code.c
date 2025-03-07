@@ -2,7 +2,7 @@
 
 void fibo(int n);
 int main(){
-    int n,a=0,b=1,c;
+    int n;
     scanf("%d",&n);
     fibo(n);
 
@@ -10,6 +10,7 @@ int main(){
 }
 
 void fibo(int n){
+    int a=0,b=1,c;
     for(int i=1;i<=n;i++){
         printf("%d",a);
         c=a+b;
