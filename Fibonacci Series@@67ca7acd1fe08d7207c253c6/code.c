@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 
 void fibo(int n);
 int main(){
