@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 void fibo(int n);
 int main(){
     int n;
