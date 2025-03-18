@@ -9,7 +9,7 @@ int main(){
     scanf("%d",&arr[3]);
     scanf("%d",&arr[4]);
     for(int i=0;i<=4;i++){
-        if(i%2==0){
+        if(arr[i]%2==0){
             evencount++;
         }
         else{
