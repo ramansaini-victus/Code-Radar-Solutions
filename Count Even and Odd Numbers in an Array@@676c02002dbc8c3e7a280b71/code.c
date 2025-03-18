@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-    int num[5];
+    int arr[5];
     int evencount=0;
     int oddcount=0;
     scanf("%d",&num[0]);
