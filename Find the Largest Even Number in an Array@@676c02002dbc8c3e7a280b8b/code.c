@@ -5,9 +5,9 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    if(a[b]%2==0){
-        if(a[b]>maxeven){
-            maxeven=a[b];
+    if(a[i]%2==0){
+        if(a[i]>maxeven){
+            maxeven=a[i];
         }
     }
 }
