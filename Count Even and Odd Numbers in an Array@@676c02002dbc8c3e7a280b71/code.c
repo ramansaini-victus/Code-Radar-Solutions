@@ -5,7 +5,6 @@ int main() {
     scanf("%d", &n);
 
     for(int b = 0; b < n; b++) {
-        printf("Enter element %d: ", b + 1);
         scanf("%d", &arr[b]);
     }
 
