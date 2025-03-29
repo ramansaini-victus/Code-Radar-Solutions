@@ -15,7 +15,7 @@ int main() {
             num /= 10;
         }
 
-        printf(" %d ",, digit_sum);
+        printf(" %d ", digit_sum);
     }
 
     return 0;
