@@ -2,11 +2,7 @@
 
 int main() {
     int a[20], n;
-
-    // Read number of elements
     scanf("%d", &n);
-
-    // Read array elements
     for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
     }
@@ -19,7 +15,7 @@ int main() {
             num /= 10;
         }
 
-        printf(" %d %d ", a[i], digit_sum);
+        printf(" %d ",, digit_sum);
     }
 
     return 0;
