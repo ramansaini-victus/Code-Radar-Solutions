@@ -1,30 +1,34 @@
 #include<stdio.h>
-printArray(int *a,int n){
+void printArray(int* arr,int n){
     for(int i=0;i<n;i++){
-        printf("%d",a[i]);
+        printf("%d ",arr[i]);
     }
     printf("\n");
 }
-bubblesort(int* a,int n){
+void bubblesort(int* arr,int n){
     int temp;
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-1-i;j++){
-            if(a[j]>a[j+1]){
-                temp=a[j];
-                a[j]=a[j+1];
-                a[j+1]=temp;
+            if( arr[j]>arr[j+1]){
+                temp=arr[j];
+                arr[j]=arr[j+1];
+                arr[j+1]=temp;
             }
         }
     }
 }
 int main(){
-    int a[20],n;
+    int arr[12],n;
+    printf("enter the number of array:");
     scanf("%d",&n);
     for(int b=0;b<n;b++){
-        scanf("%d",&a[b]);
+        printf("enter elements:");
+        scanf("%d",&arr[b]);
     }
-    bubblesort(a,n);
-    printArray(a,n);
+    printArray(arr,n);
+    bubblesort(arr,n);
+    printArray(arr,n);
     return 0;
-
 }
+
+
