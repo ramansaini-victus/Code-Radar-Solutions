@@ -1,5 +1,5 @@
 #include<stdio.h>
-printarray(int *a,int n){
+printArray(int *a,int n){
     for(int i=0;i<n;i++){
         printf("%d",a[i]);
     }
@@ -24,6 +24,7 @@ int main(){
         scanf("%d",&a[b]);
     }
     bubblesort(a,n);
+    printArray(a,n);
     return 0;
 
 }
