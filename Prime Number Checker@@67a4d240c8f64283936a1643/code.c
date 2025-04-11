@@ -18,10 +18,4 @@ int isprime(int n)
         printf("0\n");
     }
 }
-int main()
-{
-    int a;
-    scanf("%d",&a);
-    isprime(a);
-    return 0;
-}
+
