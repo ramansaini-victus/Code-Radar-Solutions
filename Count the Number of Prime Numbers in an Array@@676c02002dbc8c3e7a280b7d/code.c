@@ -6,6 +6,7 @@ int main(){
         scanf("%d",&arr[b]);
     }
     for(int i=2;i<=n;i++){
+        int count;
         if(n%i==0){
             count++;
         }
