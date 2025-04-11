@@ -4,7 +4,7 @@ int is_sorted(int *a, int n) {
             return 0;
         }
     }
-    return 1; 
+    else return 1; 
 }
 int main() {
     int a[20], n;
@@ -13,7 +13,7 @@ int main() {
         scanf("%d", &a[b]);  
     }
 
-    if (is_sorted(a, n))
+    if (is_sorted(a,n))
         printf("Sorted\n");
     else {
         printf("Not sorted\n");
