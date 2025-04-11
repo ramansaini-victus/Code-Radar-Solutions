@@ -4,7 +4,7 @@ int is_sorted(int *a, int n) {
             return 0;
         }
     }
-    else return 1; 
+    else (return 1); 
 }
 int main() {
     int a[20], n;
